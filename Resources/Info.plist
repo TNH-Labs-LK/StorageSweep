@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>StorageSweep</string>
+    <key>CFBundleIdentifier</key>
+    <string>io.github.storagesweep</string>
+    <key>CFBundleName</key>
+    <string>Storage Sweep</string>
+    <key>CFBundleDisplayName</key>
+    <string>Storage Sweep</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Free and open source.</string>
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>Storage Sweep measures files on your Desktop to show what is using space.</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>Storage Sweep measures files in Documents to show what is using space.</string>
+    <key>NSDownloadsFolderUsageDescription</key>
+    <string>Storage Sweep measures files in Downloads to find large files and old installers.</string>
+    <key>NSRemovableVolumesUsageDescription</key>
+    <string>Storage Sweep can measure folders on external drives you choose.</string>
+    <key>NSNetworkVolumesUsageDescription</key>
+    <string>Storage Sweep can measure folders on network drives you choose.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>Storage Sweep asks Finder to empty the Trash when you choose Empty Trash.</string>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! If the problem could remove the wrong files, please report it privately instead (see SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Caches & Junk
+        2. Click Scan
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: Storage Sweep version
+      placeholder: "1.0.0"
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac
+      placeholder: "macOS 15.1, MacBook Air M2"
+    validations:
+      required: true
+  - type: dropdown
+    id: fda
+    attributes:
+      label: Is Full Disk Access turned on?
+      options: ["Yes", "No", "Not sure"]
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here if they help.

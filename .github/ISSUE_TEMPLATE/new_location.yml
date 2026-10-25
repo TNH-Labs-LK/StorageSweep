@@ -1,0 +1,38 @@
+name: Suggest a folder to clean
+description: A cache or tool folder Storage Sweep should know about
+labels: ["new location", "good first issue"]
+body:
+  - type: input
+    id: path
+    attributes:
+      label: Folder path
+      placeholder: "~/.bun/install/cache"
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Which tool or app creates it?
+      placeholder: "Bun"
+    validations:
+      required: true
+  - type: dropdown
+    id: safe
+    attributes:
+      label: Is it rebuilt automatically if removed?
+      options:
+        - "Yes, it's a cache (Safe)"
+        - "Partly, the user may lose something (Review)"
+        - "Not sure"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link to docs confirming it's safe to remove, if you have one.
+  - type: input
+    id: size
+    attributes:
+      label: Typical size on your Mac
+      placeholder: "2.3 GB"

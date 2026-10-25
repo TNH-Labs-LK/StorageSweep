@@ -1,0 +1,24 @@
+name: Release
+
+# Push a tag like v1.0.0 to build the app and publish a GitHub Release with the zip attached.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build app
+        run: ./build.sh
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/StorageSweep.zip \
+            --title "Storage Sweep $GITHUB_REF_NAME" \
+            --generate-notes
