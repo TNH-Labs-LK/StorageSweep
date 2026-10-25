@@ -8,8 +8,8 @@
 
 Find the gigabytes hiding in `node_modules`, Gradle caches, Xcode simulators, Python environments, AI models and old installers, and clean them up safely in a few clicks.
 
-[![Build](https://github.com/YOUR_USERNAME/StorageSweep/actions/workflows/build.yml/badge.svg)](https://github.com/YOUR_USERNAME/StorageSweep/actions/workflows/build.yml)
-[![Latest release](https://img.shields.io/github/v/release/YOUR_USERNAME/StorageSweep?label=download)](https://github.com/YOUR_USERNAME/StorageSweep/releases/latest)
+[![Build](https://github.com/TNH-Labs-LK/StorageSweep/actions/workflows/build.yml/badge.svg)](https://github.com/TNH-Labs-LK/StorageSweep/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/TNH-Labs-LK/StorageSweep?label=download)](https://github.com/TNH-Labs-LK/StorageSweep/releases/latest)
 ![macOS 13+](https://img.shields.io/badge/macOS-13%2B-black?logo=apple)
 ![Swift](https://img.shields.io/badge/Swift-5.9-F05138?logo=swift&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -67,7 +67,7 @@ Cleaning tools should never be scary. Storage Sweep follows a few hard rules:
 
 ## ⬇️ Download
 
-1. Download `StorageSweep.zip` from the [latest release](https://github.com/YOUR_USERNAME/StorageSweep/releases/latest).
+1. Download `StorageSweep.zip` from the [latest release](https://github.com/TNH-Labs-LK/StorageSweep/releases/latest).
 2. Unzip it and drag **Storage Sweep** into your Applications folder.
 3. Open it. The first time, macOS may say it can't verify the developer. Open **System Settings → Privacy & Security** and click **Open Anyway**.
 4. For complete results, allow **Full Disk Access** when the app asks. It walks you through the steps.
@@ -79,7 +79,7 @@ Cleaning tools should never be scary. Storage Sweep follows a few hard rules:
 You need Xcode 15 or later (or the Xcode command line tools).
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/StorageSweep.git
+git clone https://github.com/TNH-Labs-LK/StorageSweep.git
 cd StorageSweep
 ./build.sh
 open "dist/Storage Sweep.app"
@@ -91,7 +91,7 @@ Prefer Xcode? **File → Open**, choose the `StorageSweep` folder, select **My M
 
 ## 🗺️ Roadmap
 
-Ideas we'd love help with (see [issues](https://github.com/YOUR_USERNAME/StorageSweep/issues)):
+Ideas we'd love help with (see [issues](https://github.com/TNH-Labs-LK/StorageSweep/issues)):
 
 - [ ] Docker images, volumes and build cache
 - [ ] Homebrew old versions (`brew cleanup` preview)
@@ -106,7 +106,7 @@ Ideas we'd love help with (see [issues](https://github.com/YOUR_USERNAME/Storage
 
 Contributions of every size are welcome: new cache locations, bug fixes, UI polish, docs or translations. Adding a new cleanup location is often a **one-line change**, which makes it a great first contribution.
 
-Read the [contributing guide](CONTRIBUTING.md) to get started, and look for issues labelled [`good first issue`](https://github.com/YOUR_USERNAME/StorageSweep/labels/good%20first%20issue).
+Read the [contributing guide](CONTRIBUTING.md) to get started, and look for issues labelled [`good first issue`](https://github.com/TNH-Labs-LK/StorageSweep/labels/good%20first%20issue).
 
 Please follow our [Code of Conduct](CODE_OF_CONDUCT.md). To report a security problem privately, see [SECURITY.md](SECURITY.md).
 

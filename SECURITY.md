@@ -12,8 +12,7 @@ Only the latest release gets fixes.
 
 Report them privately instead:
 
-- Use GitHub's **[Report a vulnerability](../../security/advisories/new)** button (Security tab), or
-- Email **YOUR_EMAIL**.
+- Use GitHub's **[Report a vulnerability](https://github.com/TNH-Labs-LK/StorageSweep/security/advisories/new)** button on the Security tab.
 
 Please include what you found, how to reproduce it and which macOS version you used. You'll get a reply within 7 days, and you'll be credited in the release notes unless you'd rather not be.
 

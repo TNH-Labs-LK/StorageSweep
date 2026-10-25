@@ -24,6 +24,6 @@ We want Storage Sweep to be a welcoming project for everyone, whatever their exp
 
 Maintainers may remove, edit or reject comments, commits, code, issues and other contributions that don't follow this Code of Conduct, and may temporarily or permanently ban contributors for behaviour they consider harmful.
 
-To report a problem, email **YOUR_EMAIL**. Reports are handled privately.
+To report a problem privately, use [GitHub's private reporting](https://github.com/TNH-Labs-LK/StorageSweep/security/advisories/new) or message the maintainers through the [TNH-Labs-LK](https://github.com/TNH-Labs-LK) GitHub profile.
 
 The full text of the Contributor Covenant, including its enforcement guidelines, applies to this project.
